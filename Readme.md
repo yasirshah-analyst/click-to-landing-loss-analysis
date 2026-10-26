@@ -185,6 +185,8 @@ SELECT
     SUM((Ad_Clicks - Recorded_Landing_Visits) * Cost_per_Click_USD) - SUM(Ad_Clicks * 0.05 * Cost_per_Click_USD) AS recoverable_money
 FROM click_to_landing_analysis
 WHERE Device = 'Mobile' AND Browser = 'Safari';
+```
+---
 
 ---
 
@@ -198,7 +200,6 @@ WHERE Device = 'Mobile' AND Browser = 'Safari';
 ## Project Structure
 
 ```
-
 click-to-landing-loss-analysis/
 ├── dataset/
 │   └── click_to_landing_analysis.csv    # source dataset
@@ -210,7 +211,7 @@ click-to-landing-loss-analysis/
 │   └── power_bi_file/
 │       └── clicks_to_visits.pbix        # power bi report
 └── README.md
-
+```
 ---
 
 ## Author
