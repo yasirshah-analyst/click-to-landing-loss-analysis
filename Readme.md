@@ -197,19 +197,18 @@ WHERE Device = 'Mobile' AND Browser = 'Safari';
 
 ## Project Structure
 
-```
+```text
 click-to-landing-loss-analysis/
 ├── dataset/
-│   └── click_to_landing_analysis.csv     # source dataset
+│   └── click_to_landing_analysis.csv    # source dataset
 ├── sql/
-│   ├── clicks_2_Visitors.sql             # sql querries
+│   └── clicks_2_visitors.sql            # sql queries
 ├── dashboard/
-│   ├── image/                           
-│   └── dashboard.png                     # dashboard screenshot
-│   ├── power_bi_file  
-│   └── clicks_to_visits.pbix             # power bi report
+│   ├── image/
+│   │   └── dashboard.png                # dashboard screenshot
+│   └── power_bi_file/
+│       └── clicks_to_visits.pbix        # power bi report
 └── README.md
-```
 
 ---
 
