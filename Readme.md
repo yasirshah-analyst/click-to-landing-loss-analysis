@@ -197,7 +197,8 @@ WHERE Device = 'Mobile' AND Browser = 'Safari';
 
 ## Project Structure
 
-```text
+```
+
 click-to-landing-loss-analysis/
 ├── dataset/
 │   └── click_to_landing_analysis.csv    # source dataset
